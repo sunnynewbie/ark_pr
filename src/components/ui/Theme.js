@@ -1,24 +1,20 @@
-import {createTheme} from '@mui/material/styles'
+import { createTheme } from '@mui/material/styles'
 
-export const appTheme= createTheme({
- palette:{
-    common:{
-     black:'#2a2a2a',
-     white:'#fffff',
-      
+export const appTheme = createTheme({
+  palette: {
+
+    primary: {
+      main: "#0C66B0",
+
     },
-    primary:{
-      main:"#0057B7",
-    
-    },
-    secondary:{
-      main:'#FF5D0A'
+    secondary: {
+      main: '#FF5D0A'
     }
- },
- typography:{
-   h3:{
-      fontWeight:300
-   }
- }
+  },
+  typography: {
+    h3: {
+      fontWeight: 300
+    }
+  }
 
 });
